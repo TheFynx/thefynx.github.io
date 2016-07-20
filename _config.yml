@@ -2,7 +2,7 @@
 title: Fynx's Notebook
 description: 'My insanity via text'
 url: 'http://fynx.me'
-baseurl: '/thefynx.github.io/'
+baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
