@@ -1,0 +1,38 @@
+# Site settings
+title: Fynx's Notebook
+description: 'My insanity via text'
+url: 'http://fynx.me'
+baseurl: '/thefynx.github.io/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Levi Smith'
+  email: levi@fynx.me
+  twitter_username: thefynx85
+  github_username:  thefynx
+  linkedin_username:  levismith1
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

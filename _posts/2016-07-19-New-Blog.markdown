@@ -1,0 +1,10 @@
+---
+title:  "Fynx's New Blog"
+date:   2016-07-19 21:55
+categories: [announcements]
+tags: [announcements]
+---
+
+Out with the old and in with the new! Also I'm cheap and my AWS free tier ran out... So utilzing Jekyll and Github! Yay Markdown!
+
+Should be several new posts flowing in here soon, lots of data to put somewhere so I can forget it and look it up later.
